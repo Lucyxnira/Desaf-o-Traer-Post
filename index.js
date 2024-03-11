@@ -33,4 +33,5 @@ const getPosts = async () => {
     }
   };
 
-  getPosts();
+  const btn = document.getElementById("btn");
+  btn.onclick = getPosts;
